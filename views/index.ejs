@@ -8,23 +8,65 @@
             padding: 0;
             margin: 0;
         }
+        body{
+            font-family: sans-serif;
+            background-color: #333333;
+        }
 
         canvas {
             background: #eee;
             display: block;
             margin: 0 auto;
+            box-shadow: 0px 0px 10px 10px grey;
+            /* width:'100%'; */
+        }
+        #can{
+            /* width: ; */
+            border-radius: 20px;
+
+        }
+        .text-center{
+            text-align: center;
+        }
+        .text-white{
+            color:white;
+        }
+        .space-20  {
+            width: 100%;
+            height: 20px;
+        }
+        input[type=text]{
+            border-radius: 20px;
+            font-size: 1.3em;
+            padding: 10px;
+        }
+        .btn{
+            border-radius: 20px;
+            height: 50px;
+            padding: 10px;
+            background-color: green;
+            color: white;
         }
     </style>
     <script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
-    <h2>Enter your name and start the game.</h2>
-    <input type="text" placeholder="Name" id="name">
-    <button id="start">Start Game</button>
-    <br>
-    <h3>Score 50 points first to win.</h3>
+    <div class="space-20"></div>
+    <!-- <div class="space-20"></div> -->
+    <div class="space-20"></div>
+    <div class="text-center text-white">
+        <h2 class="text-center">Enter your name and start the game.</h2>
+        <div class="space-20"></div>
+        <input type="text" placeholder="Name" id="name">
+        <button id="start" class="btn">Start Game</button>
+        <br>
+        <div class="space-20"></div>
+        <h3>Score 50 points first to win.</h3>
+    </div>
+    <div class="space-20"></div>
+    <div class="space-20"></div>
     <canvas id="can" width="700" height="500"></canvas>
-    <div id="scoreboard">
+    <div id="scoreboard" class="text-white">
 
     </div>
     <script>

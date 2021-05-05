@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="121d51f7-6f45-4f59-bc37-76c11f73c3ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/systems/collision.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scripts/systems/score.js" afterDir="false" />
+    <list default="true" id="121d51f7-6f45-4f59-bc37-76c11f73c3ed" name="Default Changelist" comment="Multiplayer game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Components.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/systems/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/systems/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/shared/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scripts/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/scripts/Components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scripts/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/scripts/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scripts/systems/gravity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scripts/systems/randomMovement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scripts/systems/userInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/scripts/systems/userInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/systems/collision.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/systems/collision.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/systems/userInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/systems/userInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,15 +35,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Making-3D-Game-Engine" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github Repos\Multiplayer-Entity-Component-System\views" />
       <recent name="D:\Github Repos\Multiplayer-Entity-Component-System\lib" />
       <recent name="D:\Github Repos\Multiplayer-Entity-Component-System\static" />
-      <recent name="D:\Github Repos\Multiplayer-Entity-Component-System\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Github Repos\Multiplayer-Entity-Component-System\lib\systems" />
@@ -83,8 +74,17 @@
       <updated>1619877295418</updated>
       <workItem from="1619877296599" duration="17797000" />
       <workItem from="1620113431678" duration="12000" />
-      <workItem from="1620215072230" duration="6312000" />
+      <workItem from="1620215072230" duration="6406000" />
+      <workItem from="1620237524007" duration="496000" />
     </task>
+    <task id="LOCAL-00001" summary="Multiplayer game">
+      <created>1620221455091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620221455091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +100,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Multiplayer game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multiplayer game" />
   </component>
 </project>
