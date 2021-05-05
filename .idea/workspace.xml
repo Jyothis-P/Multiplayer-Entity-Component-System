@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="121d51f7-6f45-4f59-bc37-76c11f73c3ed" name="Default Changelist" comment="" />
+    <list default="true" id="121d51f7-6f45-4f59-bc37-76c11f73c3ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/systems/collision.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/scripts/systems/score.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/systems/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/systems/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/shared/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scripts/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/scripts/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scripts/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/scripts/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scripts/systems/gravity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scripts/systems/randomMovement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scripts/systems/userInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/scripts/systems/userInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +29,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1rwBVX1jRrKyjxr8CKuxDXEBgvj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Making-3D-Game-Engine" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -34,6 +53,10 @@
       <recent name="D:\Github Repos\Multiplayer-Entity-Component-System\lib" />
       <recent name="D:\Github Repos\Multiplayer-Entity-Component-System\static" />
       <recent name="D:\Github Repos\Multiplayer-Entity-Component-System\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github Repos\Multiplayer-Entity-Component-System\lib\systems" />
+      <recent name="D:\Github Repos\Multiplayer-Entity-Component-System\lib" />
     </key>
   </component>
   <component name="RunManager">
@@ -58,11 +81,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619877295418</updated>
-      <workItem from="1619877296599" duration="15001000" />
+      <workItem from="1619877296599" duration="17797000" />
+      <workItem from="1620113431678" duration="12000" />
+      <workItem from="1620215072230" duration="6312000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

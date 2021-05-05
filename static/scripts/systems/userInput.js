@@ -5,7 +5,6 @@ ECS.Input.DOWN = false;
 ECS.Input.MISC_KEYS = {}
 
 ECS.Input.onKeyDown = function(event) {
-    console.log(event.code);
     switch (event.code) {
         case 'ArrowLeft':
         case 'KeyA':

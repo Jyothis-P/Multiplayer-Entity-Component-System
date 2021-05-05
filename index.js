@@ -28,7 +28,6 @@ io.on('connection', (socket) => {
     });
 
     socket.on('input', (data) => {
-        console.log(data)
         game.updateUserInput(socket, data);
     })
 

@@ -18,8 +18,15 @@
     <script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
-    <canvas id="can" width="480" height="360"></canvas>
-    
+    <h2>Enter your name and start the game.</h2>
+    <input type="text" placeholder="Name" id="name">
+    <button id="start">Start Game</button>
+    <br>
+    <h3>Score 50 points first to win.</h3>
+    <canvas id="can" width="700" height="500"></canvas>
+    <div id="scoreboard">
+
+    </div>
     <script>
 
         window.ECS = {
@@ -34,8 +41,6 @@
         ECS.context = ECS.$canvas.getContext('2d');
 
         let socket = io();
-        socket.emit('join', {name: 'Jyothis'});
-
 
         socket.on('update', (data) => {
             ECS.entities = data;
@@ -48,6 +53,7 @@
     <script src="/static/scripts/systems/gravity.js"></script>
     <script src="/static/scripts/systems/userInput.js"></script>
     <script src="/static/scripts/systems/randomMovement.js"></script>
+    <script src="/static/scripts/systems/score.js"></script>
     <script src="/static/scripts/systems/render.js"></script>
     <script src="/static/scripts/game.js"></script>
 </body>

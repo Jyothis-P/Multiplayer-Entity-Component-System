@@ -4,11 +4,11 @@ ECS.Game = function () {
 
     let systems = [
         ECS.systems.render,
+        ECS.systems.score,
     ];
 
 
     function gameLoop() {
-        console.log(self._running);
         for (let i = 0; i < systems.length; i++) {
             systems[i](ECS.entities);
         }
@@ -28,4 +28,10 @@ ECS.Game = function () {
     }
 }
 
-ECS.game = new ECS.Game();
+const startButton = document.getElementById('start');
+startButton.onclick = () => {
+    startButton.disabled = true;
+    const name = document.getElementById('name').value;
+    socket.emit('join', {name: name});
+    ECS.game = new ECS.Game();
+}
